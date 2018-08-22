@@ -1,0 +1,47 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.parallax1{
+    background-image: url('../images/test.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url('../images/biotech.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url('../images/test.png');
+    height: 50%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ntitle{
+    font-family: 'Passion One', cursive;
+    font-size:72px;
+    color:white;
+}
+.techcaption{
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+.scicaption{
+    color: black;
+    font-family: 'Imprima', sans-serif;
+}
+.metech{
+    position: absolute;
+    bottom: 110%;
+    right: 13%;
+}
+.mesci{
+    display: inline-block;
+}
