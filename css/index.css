@@ -1,6 +1,34 @@
 #logopic {
     max-width: 15%;
 }
-#logoname{
+#logoname {
     max-width: 50%;
+}
+.homeparallax {
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, -1)), url('../img/pork_dish.jpg');
+    min-height: 1080px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title_des {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7vw;
+}
+#title_add {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+.titletext{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    color:white;
 }
