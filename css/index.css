@@ -15,9 +15,10 @@
 .navbar_bg_color {
     background-color: lightgrey;
 }
-#team_bg{
+#team_parallax{
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, -1)), url('../img/team.jpg');
     min-height: 1080px; 
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,5 +62,39 @@
     margin-bottom: 50px;
 }
 .card_custom {
-    margin: 30px 0px 30px 0px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    margin: auto;
+}
+#tbreakm_title {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+#tbreakm_des {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 50px;
+}
+#menu_parallax {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, -1)), url('../img/cat.jpg');
+    min-height: 1080px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu_title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 3em;
+    color:white
+}
+.card_price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
 }
