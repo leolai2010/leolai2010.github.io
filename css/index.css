@@ -1,13 +1,20 @@
-#logopic {
+#logo_pic {
     max-width: 15%;
 }
-#logoname {
+#logo_name {
     max-width: 50%;
 }
-.homeparallax {
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, -1)), url('../img/pork_dish.jpg');
+#home_parallax {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, -1)), url('../img/pork_dish.jpg');
     min-height: 1080px; 
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#team_bg{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, -1)), url('../img/team.jpg');
+    min-height: 1080px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,9 +33,30 @@
     transform: translate(-50%, -50%);
     font-size: 2vw;
 }
-.titletext{
+.title_text {
     display: none;
     text-align: center;
     font-weight: bold;
     color:white;
+}
+#team_title {
+    margin-top: 10px;
+    font-size: 5vw;
+    color:black
+}
+.team_text {
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+#hbreakt_title {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vw;
+}
+#hbreakt_des {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 50px;
 }

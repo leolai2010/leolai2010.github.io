@@ -1,7 +1,7 @@
 
 $(document).ready(function (){
     animateCSS('#nav_main', 'fadeInDown').then(() => {
-        $('.titletext').css('display', 'block').addClass('animate__animated animate__fadeIn');
+        $('.title_text').css('display', 'block').addClass('animate__animated animate__fadeIn');
     });
 });
 
