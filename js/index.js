@@ -3,6 +3,16 @@ $(document).ready(function (){
     animateCSS('#nav_main', 'fadeInDown').then(() => {
         $('.title_text').css('display', 'block').addClass('animate__animated animate__fadeIn');
     });
+    // $(window).scroll(function() {
+    //     if($(this).scrollTop() >= 1080){
+    //         $('#nav_main').removeClass('bg-transparent');
+    //         $('#nav_main').addClass('navbar_bg_color');
+    //     }
+    //     else{
+    //         $('#nav_main').removeClass('navbar_bg_color');
+    //         $('#nav_main').addClass('bg-transparent');
+    //     };
+    // });
 });
 
 // This is a global function variable to be used to control synchronous animations 
