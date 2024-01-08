@@ -77,21 +77,35 @@
     font-weight: bold;
     padding-top: 30px;
     font-size: 3em;
-    color:black
+    color:black;
 }
 #menu_title {
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
     font-size: 3em;
-    color:white
+    color:white;
 }
 #news_title {
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
     font-size: 3em;
-    color:white
+    color:white;
+}
+#info_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color:white;
+    margin: 20px 0px 12px 0px;
+}
+#product_title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 3em;
+    color:white;
 }
 
 /* Break Items */
@@ -161,4 +175,7 @@ tr {
 #location {
     width: 100%;
     height: 426px;
+}
+#info_accord {
+    padding-bottom: 30px;
 }
