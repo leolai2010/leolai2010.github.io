@@ -1,350 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Pordi JH Lab</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>Leo Lai</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Imprima|Passion+One|Righteous" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header>
-            <nav id="nav_main" class="navbar navbar-expand-lg fixed-top bg-transparent" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <img id="logo_pic" src="./img/logo_pic.png">
-                    <img id="logo_name" src="./img/logo_name.png">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbar_menu">
-                        <div class="navbar-nav nav-underline">
-                            <a class="nav-link active" aria-current="page" href="#home">首頁</a>
-                            <a class="nav-link" href="#team">團隊</a>
-                            <a class="nav-link" href="#menu">菜單</a>
-                            <a class="nav-link" href="#news">資訊</a>
-                            <a class="nav-link" href="#product">產品</a>
+    <div id="borderfix">
+    <header>
+        <nav class="animated slideInDown navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#home">Leo Lai</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#project">Projects</a>
+                <a class="nav-item nav-link" href="#education">Education</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+    <div class="homeparallax">
+        <div class="container-fluid">
+            <br>
+            <br>
+            <br>
+            <h1 class="animated fadeInDown ntitle text-center">Leo Lai</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="animated fadeInLeft medesc">
+                        <h4 class="text-center">My Journey</h4>
+                        <p class="mystory">I'm an Automation Engineer that started off with a strong background in science.
+                            My educational background and previous work experiences have allowed me 
+                            to become well versed in problem solving, 
+                            data analysis, and learning new technology. 
+                            I have worked alongside healthcare and law enforcement professionals 
+                            and have experience in actively providing support and being part of a team.
+                        </p> 
+                        <p>I am well-versed in data collection, data process, applying algorithms 
+                            and model to produce useful data analysis results. Not only do I possess programming skills 
+                            and have proficiency in Python, Java and JavaScript but also has technical laboratory skills
+                            in validation, calibration, and competency.
+                            My projects reflect my ability to apply these technical skills to create analytical and
+                            multi-function applications.
+                        </p>
+                        <br>
+                        <br>
+                        <div class="text-center">
+                            <div id="linkedin">
+                                <a href="https://www.linkedin.com/in/leo-lai-2010/">
+                                <img class="img-fluid" height="85" width="85" src="images/linkedin.png">
+                                </a>
+                                <p>LinkedIn</p>
+                            </div>
+                            <div id="github">
+                                <a href="https://github.com/leolai2010">
+                                <img class="img-fluid" height="85" width="85" src="images/githubh.png">
+                                </a>
+                                <p>GitHub</p>
+                            </div>
+                            <div id="resume">
+                                <a href="https://drive.google.com/file/d/1_7LcaZ8Rhtz4FVAUNI-UO2prlsvQur7j/view?usp=sharing">
+                                <img class="img-fluid" height="85" width="85" src="images/resume.png">
+                                </a>
+                                <p>Resume</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <section id="home">
-            <div id="home_parallax">
-                <div class="container-fluid">
-                    <p id="title_des" class="title_text">泰式料理餐廳</p>
-                    <br>
-                    <p id="title_add" class="title_text">台中市西區模範街46巷1號</p>
+                <div class="col">
+                    <img class="me animated fadeInRight img-fluid rounded-circle" height="500" width="500" src="images/profile.png">
                 </div>
             </div>
-        </section>
-        <div id="hbreakt" data-aos="zoom-in">
-            <p id="hbreakt_title">大家好，我是張波！</p>
-            <p id="hbreakt_des">"張波是小吃攤、麵攤、小吃店、飯攤。我們想讓小吃攤有一些新的印象。"</p>
+            <br>
         </div>
-        <section id="team">
-            <div id="team_parallax">
-                <div class="container-fluid">
-                    <p id="team_title" data-aos="fade-up">團隊</p>
-                    <div id="team_card" class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                        <div class="col justify-content-center">
-                            <div class="card card_custom text-bg-dark">
-                                <img src="./img/pordi.jpg" class="card-img">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title fw-bold text-black">張言偉</h5>
-                                    <p class="card-text text-black">貓派//太陽金星天秤//月亮射手//上升天蠍//3/5人//餐飲//烘焙//調飲</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card_custom text-bg-dark">
-                                <img src="./img/pordi.jpg" class="card-img">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title fw-bold text-black">張言偉</h5>
-                                    <p class="card-text text-black">貓派//太陽金星天秤//月亮射手//上升天蠍//3/5人//餐飲//烘焙//調飲</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card_custom text-bg-dark">
-                                <img src="./img/pordi.jpg" class="card-img">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title fw-bold text-black">張言偉</h5>
-                                    <p class="card-text text-black">貓派//太陽金星天秤//月亮射手//上升天蠍//3/5人//餐飲//烘焙//調飲</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="tbreakm" data-aos="zoom-in">
-            <p id="tbreakm_title">大家好，我是張波！</p>
-            <p id="tbreakm_des">"張波是小吃攤、麵攤、小吃店、飯攤。我們想讓小吃攤有一些新的印象。"</p>
-        </div>
-        <section id="menu">
-            <div id="menu_parallax">
-                <div class="container-fluid">
-                    <p id="menu_title" data-aos="fade-up">菜單</p>
-                    <div id="menu_card" class="row justify-content-center">
-                        <div class="card-group">
-                            <div class="card">
-                                <img src="./img/food.jpg" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">打拋豬</h5>
-                                    <p class="card-text">很辣,嚇死</p>
-                                </div>
-                                <div class="card-footer">
-                                    <p class="text-body-secondary card_price">NT$ 165</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="./img/food.jpg" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">打拋豬</h5>
-                                    <p class="card-text">很辣,嚇死</p>
-                                </div>
-                                <div class="card-footer">
-                                    <p class="text-body-secondary card_price">NT$ 165</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="./img/food.jpg" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">打拋豬</h5>
-                                    <p class="card-text">很辣,嚇死</p>
-                                </div>
-                                <div class="card-footer">
-                                    <p class="text-body-secondary card_price">NT$ 165</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="mbreakn" data-aos="zoom-in">
-            <p id="mbreakn_title">大家好，我是張波！</p>
-            <p id="mbreakn_des">"張波是小吃攤、麵攤、小吃店、飯攤。我們想讓小吃攤有一些新的印象。"</p>
-        </div>
-        <section id="news">
-            <div id="news_parallax">
-                <div class="container-fluid">
-                    <p id="news_title" data-aos="fade-up">資訊</p>
-                    <br>
-                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                        <div class="col" data-aos="fade-up">
-                            <iframe
-                            id="location"
-                            frameborder="0" style="border:0"
-                            referrerpolicy="no-referrer-when-downgrade"
-                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARYEbhXFvPFocYDwJ3g1tu3FCQ_zS1fhE&q=張波歺室"
-                            allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="col" data-aos="fade-up">
-                            <table id="hour_table" class="table table-hover table-dark">
-                                <thead>
-                                <tr>
-                                    <th scope="col" colspan="2">營業時間</th>
-                                </tr>
-                                </thead>
-                                <tbody class="table-group-divider">
-                                    <tr>
-                                        <th scope="row">星期一</th>
-                                        <td>公休</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期二</th>
-                                        <td>11:00 AM - 1:30 PM 
-                                        <br>5:00 PM - 7:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期三</th>
-                                        <td>11:00 AM - 1:30 PM 
-                                        <br>5:00 PM - 7:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期四</th>
-                                        <td>11:00 AM - 1:30 PM 
-                                        <br>5:00 PM - 7:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期五</th>
-                                        <td>11:00 AM - 1:30 PM 
-                                        <br>5:00 PM - 7:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期六</th>
-                                        <td>11:00 AM - 3:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">星期日</th>
-                                        <td>公休</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div id="info_accord" class="row justify-content-center">
-                        <div id="info_title">『來店內用餐須知』</div>
-                        <div class="col-8">
-                            <div class="accordion accordion-flush" id="infoAccordion" data-aos="fade-up">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        ✦ 關於訂位
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            目前沒有唷，因為我們是小吃攤快餐店所以都是依照現場位置為主。
-                                            用餐人數超過4位，由於店內四人桌非常少所以候位會比較久一點。
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        ✦ 關於幼童孩童
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            不接待10歲以下小朋友，
-                                            10歲以上佔一個座位就是一份餐點。
-                                            熱湯危險⚠️
-                                            碰撞危險⚠️
-                                            謝謝😁
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        ✦ 關於低消
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            基本上是佔一個位子就是一份低消。即日起低消是以一份店內價位最低的餐點為低消（ex:紅綠咖哩飯或者張波打拋豬肉飯，飲料不算。）
-                                            如果你真的不餓建議下次都餓的時候再一起過來用餐吧！！！
-                                            （如果避開”尖峰"時段，視情況我們都還能商量）。
-                                            因為我們都需要為了生活而努力活著，各位波比大大們我們還有租金呀啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！
-                                            我們手臂沒有粗，也沒有後台靠山的！！！！！
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                        ✦ 關於用餐時間
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            即日起尖峰時段為每一組50分鐘，如果你晚到了還請麻煩多擔待配合了
-                                            離峰時段基本上後面沒有等待用餐的客人，張波也不會催促提醒。除非張波準備休息了
-                                            （店內非常不適合洽談生意，還請移動至咖啡廳好好談生意。祝福生意談成事業蒸蒸日上）
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                        ✦ 關於外帶
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            可以於營業時間前於粉絲團私訊給我們。
-                                            或者前一天先訊息告知，待我們回覆收到沒問題即為外帶點餐完成。
-                                            再來取餐就可以囉！！！
-                                            為什麼沒有電話，因為張波不喜歡接電話。
-                                            所以有事私訊我們吧！！！！對了！！休假時間跟休息時間可能不會回覆或著沒時間回覆還請見諒。
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                        ✦ 關於冷氣
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            比較抱歉由於廚房跟餐廳沒有隔開，所以冷氣可能不是那麼冷。還請見諒！！！
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                        ✦ 關於候位
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#infoAccordion">
-                                        <div class="accordion-body">
-                                            天氣熱的話附近100公尺左右有一間7-11可以在那等候張波電話通知。要候位，留下手機號碼就可以先離開等電話通知囉！
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="mbreakn" data-aos="zoom-in">
-            <p id="mbreakn_title">大家好，我是張波！</p>
-            <p id="mbreakn_des">"張波是小吃攤、麵攤、小吃店、飯攤。我們想讓小吃攤有一些新的印象。"</p>
-        </div>
-        <section id="product">
-            <div id="product_parallax">
-                <div class="container-fluid">
-                    <p id="product_title" data-aos="fade-up">商品</p>
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                            <div class="card mb-3" style="max-width: 540px;">
-                                <div class="row g-0">
-                                    <div class="col-md-4">
-                                        <img src="./img/shirt.jpg" class="img-fluid rounded-start">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">張波餐室 X BOKU - 喵波</h5>
-                                            <p class="card-text">BOKU聯名系第二彈  張波餐室
-                                            <br>
-                                            擁有好廚藝與一個泰國絕對味覺的老闆
-                                            一心打造泰式平價街邊小店
-                                            <br>
-                                            充滿植栽與復古家俱,還有收養的浪喵(超親人)
-                                            <br>
-                                            店裡有種舒適輕鬆熱鬧的氛圍
-                                            吃著簡單的泰式料理與泰奶與好友們之間的談笑
-                                            讓店裡有著神祕的迷人魔力
-                                            <br>
-                                            愛上張波的火花~
-                                            不可錯過的限量發售!!
-                                            </p>
-                                            <a href="https://www.boku-tw.com/product/pordi/" class="btn btn-primary">立即購買</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </section>
+    <section id="project">
+    <div class="parallax1">
+        <br>
+        <div class="container-fluid">
+            <br>
+            <h1 data-aos="fade-down" class="ntitle text-center">Projects</h1>
+            <div class="card-deck">
+            <div data-aos="fade-right" class="card text-white bg-dark">
+                <div id="pmcarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="img-fluid d-block w-100" src="./images/pmindex.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/pmdash.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/pmall.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#pmcarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#pmcarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Potion Master</h5>
+                <p class="card-text">• E-commerce website built based on personal toxicology 
+                    research in traditional medications to examine harmful substances. 
+                    Application provides herbal medication benefits allowing consumers to gain 
+                    more information on medicinal herbs as well as a full-on consult message board system to seek additional help.
+                    Demo item cart and transaction system are in-place.
+                </p>
+                <p>Python | Django | SQLite | Stripe API</p>
+                </div>
+                <div class="card-footer text-center">
+                <small class="text-muted">
+                    <a href="http://www.potionmaster.info/"><img src="./images/web.png"></a> | 
+                    <a href="https://github.com/leolai2010/Python_Project"><img src="./images/giturl.png"></a>
+                </small>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="card text-white bg-secondary">
+                <div id="fhcarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="img-fluid d-block w-100" src="./images/fhindex.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/fhcal.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/fhabout.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#fhcarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#fhcarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Flight Headed</h5>
+                <p class="card-text">• Educational website and mobile application based on clinical 
+                    research of alcohol metabolic rate by performing Controlled Drinking Study in 
+                    collaboration with LAPD. Application comes with educational information as well 
+                    as a built-in Blood Alcohol calculator. Users are able to store alcohol consumption amount 
+                    and personal information in application database. 
+                    Mobile application is in progress and will have tracking, camera abilities to analyze physical 
+                    condition while under the influence. Using React Native application will be available to both android and iOS platforms. 
+                </p>
+                <br>
+                <p>Java | Spring Boot | MySQL | React.js</p>
+                </div>
+                <div class="card-footer text-center">
+                <small class="text-muted">
+                    <a href="http://www.flight-headed.com/"><img src="./images/web.png"></a> | 
+                    <a href="https://github.com/leolai2010/Java_Project"><img src="./images/giturl.png"></a>
+                </small>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="card text-white bg-dark">
+                <div id="pbcarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="img-fluid d-block w-100" src="./images/pbindex.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/pbexp.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="./images/pbtensor.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#pbcarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#pbcarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Primal Brain</h5>
+                <p class="card-text">• Toxicology research-based application modeled after thesis on 
+                    Drug Exposure on Freshwater Planarians with Professor Dr. Jay R. Vargas. 
+                    Provides general information on standard of procedure, experimental design, 
+                    as well as hypothesis. Storing additional drugs and planarian paths using CRUD persistent 
+                    storage technique for future examination. Data collected are analyzed and visually 
+                    represented within the application as well as analysis performed by built in machine 
+                    learning analyzer for path prediction in correlation with possible drug outcome.
+                </p>
+                <p>MongoDB | Express.js | Angular | Node.js | TensorFlow</p>
+                </div>
+                <div class="card-footer text-center">
+                <small class="text-muted">
+                    <a href="http://www.primalbrain.info/"><img src="./images/web.png"></a> | 
+                    <a href="https://github.com/leolai2010/MEAN_Project"><img src="./images/giturl.png"></a>
+                </small>
+                </div>
+            </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    </section>
+    <section id="education">
+    <div class="parallax2">
+        <br>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div data-aos="fade-right" class="col col-lg-2 techcaption ">
+                    <br>
+                    <br>
+                    <h1 class="text-center">Technology</h1>
+                    <img class="rounded mx-auto d-block" height="285" width="185" src="./images/metech.png">
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h1 data-aos="fade-down" class="ntitle text-center">Education</h1>
+                </div>
+                <div data-aos="fade-left" class="col col-lg-2 scicaption">
+                    <br>
+                    <br>
+                    <h1 class="text-center">Science</h1>
+                    <img class="rounded mx-auto d-block" height="285" width="185" src="./images/mesci.png">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div data-aos="fade-right" class="col col-lg-4 techcaption ">
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">
+                            <img height="30" width="30" src="./images/dojo.png">&nbsp&nbspFull-Stack Development Certification
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/python.png">&nbspPython&nbsp
+                            <img height="30" width="30" src="./images/java.png">&nbspJava&nbsp
+                            <img height="30" width="30" src="./images/javascript.png">&nbspJavaScript&nbsp    
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/django.png">&nbspDjango&nbsp   
+                            <img height="30" width="30" src="./images/spring.png">&nbspSpring Boot&nbsp
+                            <img height="30" width="30" src="./images/node.png">&nbspNode.js/Express&nbsp    
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/flask.png">&nbspFlask&nbsp   
+                            <img height="30" width="30" src="./images/express.png">&nbspExpress.js&nbsp  
+                            <img height="30" width="30" src="./images/tomcat.png">&nbspApache Tomcat&nbsp  
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/mysql.png">&nbspMySQL&nbsp
+                            <img height="30" width="30" src="./images/sqlite.png">&nbspSqlite&nbsp  
+                            <img height="30" width="30" src="./images/mongodb.png">&nbspMongoDB&nbsp   
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/angular.png">&nbspAngular&nbsp 
+                            <img height="30" width="30" src="./images/react.png">&nbspReact.js&nbsp
+                            <img height="30" width="30" src="./images/redux.png">&nbspRedux&nbsp
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/tensorflow.png">&nbspTensorFlow&nbsp 
+                            <img height="30" width="30" src="./images/aws.png">&nbspAWS&nbsp
+                            <img height="30" width="30" src="./images/github.png">&nbspGitHub&nbsp
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img height="30" width="30" src="./images/bootstrapstack.png">&nbspBootstrap&nbsp 
+                            <img height="30" width="30" src="./images/materialize.png">&nbspMaterialize&nbsp
+                            <img height="30" width="30" src="./images/Yeti.png">&nbspFoundation&nbsp
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div data-aos="fade-left" class="col col-lg-4 scicaption ">
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-warning">
+                            <img  height="30" width="30" src="./images/ucr.png">&nbsp&nbspBachelor of Science, Biochemistry
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/tecan.png">&nbsp&nbspTecan Freedom Evo&reg ELSIA&nbsp 
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/siemens.png">&nbsp&nbspSiemens ADVIA Centaur&reg Immunoassay
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/agilent.png">&nbsp&nbspAgilent&reg Gas Chromatography/Mass Spectroscopy
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/ftir.png">&nbsp&nbspThermal Fisher&reg ATR-FTIR
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/siemens.png">&nbsp&nbspSiemens ADVIA Centaur&reg Immunoassay System
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/sysmex.png">&nbsp&nbspSysmex&reg Hematologic/Coagulation Analyzer&nbsp 
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <img  height="30" width="30" src="./images/biorad.png">&nbsp&nbspBio Rad&reg D-100
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    </section>
+    <section id="contact">
+        <div class="parallax3">
+        <br>
+            <div class="container-fluid">
+                <h1 data-aos="fade-down" class="ntitle text-center">Contact</h1>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-4">
+                    <form data-aos="fade-up" action="https://formspree.io/leolai2010@gmail.com"
+                        method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Phone:</label>
+                            <input type="text" class="form-control" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Email:</label>
+                            <input type="email" class="form-control" name="_replyto" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message:</label>
+                            <textarea name="message"  placeholder="Leave a Message!" rows="6" class="form-control medium-textarea"></textarea>
+                        </div>
+                        <input type="hidden" name="_next" value="http://www.leohlai.info" />
+                        <div class="center">
+                        <input type="submit" value="Send" class="btn btn-info">
+                        </div>
+                    </form> 
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>   
+        <br>
+        <br>
+        <br>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center">
+        <div class="container">
+            <p>&#169;Leo Lai <a href="#home">Back to Top</a></p>
+            <p>Power By <a href="https://getbootstrap.com/"><img height="30" width="30" src="./images/bootstrap.png"></a>ootstrap</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>AOS.init();</script>
+    <script src="js/index.js"></script>
+    </div>
 </body>
 </html>
